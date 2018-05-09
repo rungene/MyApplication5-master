@@ -6,6 +6,9 @@ package com.demotxt.myapp.myapplication.model;
 
 public class Anime {
 
+    //tutorial
+    //https://awsrh.blogspot.co.ke/2018/03/volley-glide-tutorial-parse-json.html
+
     private String name ;
     private String Description;
     private String rating;

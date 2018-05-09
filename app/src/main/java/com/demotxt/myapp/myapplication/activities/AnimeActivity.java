@@ -12,6 +12,10 @@ import com.demotxt.myapp.myapplication.R ;
 
 public class AnimeActivity extends AppCompatActivity {
 
+
+    //tutorial
+    //https://awsrh.blogspot.co.ke/2018/03/volley-glide-tutorial-parse-json.html
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

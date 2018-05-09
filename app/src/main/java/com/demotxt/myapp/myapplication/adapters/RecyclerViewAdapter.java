@@ -9,13 +9,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.demotxt.myapp.myapplication.R;
 import com.demotxt.myapp.myapplication.activities.AnimeActivity;
 import com.demotxt.myapp.myapplication.model.Anime;
-import com.demotxt.myapp.myapplication.R ;
 
 import java.util.List;
 
@@ -24,6 +23,8 @@ import java.util.List;
  */
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
+    //tutorial
+    //https://awsrh.blogspot.co.ke/2018/03/volley-glide-tutorial-parse-json.html
 
     private Context mContext ;
     private List<Anime> mData ;
